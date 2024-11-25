@@ -1,0 +1,9 @@
+Notifications
+
+Adding of projects - projects
+Completed tasks - 
+
+
+notification_title varchar(50)
+notif_projname varchar(50)
+notif_createdby varchar(50)

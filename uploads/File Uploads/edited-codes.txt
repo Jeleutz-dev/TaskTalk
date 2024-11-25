@@ -1,0 +1,96 @@
+# s-signup.inc.php (sign up directory)
+header("Location: ../s-signup.php?signup=success");
+
+
+# professors/ collaboration-board.php (icons)
+task_30px.png
+message_30px.png
+notif_30px.png
+signout_30px.png
+
+# professors/ collaboration-board.php (modal text changed to hidden)
+
+<input type="hidden" name="id" id="id" value="" />
+<input type="hidden" name="lead" id="lead" value="" />
+<input type="hidden" name="grp" id="grp" value="" />
+
+# professors/ collaboration-board.php (changed buttons)
+<input type="submit"  class="btn btn-danger"  name="Add-Member" value="Add-Member">
+<button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+
+
+# professors/ collaboration-board.php (copied students file upload)
+p-upload-file.inc.php
+
+
+# professors/ collaboration-board.php (button in upload) 
+<button type="submit" class="btn btn-dark" name="file-submit" style="margin-top:10px; margin-left:400px;">
+
+# project-board.php ( yung no. 2)
+// echo $grpno;
+
+# dashboard.php 
+<li><a href="grade-book.php"><i ></i><img src="assets/images/grade-book.png"><span>Grade Book</span></a></li>
+
+# project-list.php
+<li><a href="grade-book.php"><i ></i><img src="assets/images/grade-book.png"><span>Grade Book</span></a></li>
+
+# app-calendar.php
+<li><a href="grade-book.php"><i ></i><img src="assets/images/grade-book.png"><span>Grade Book</span></a></li>
+
+# app-chat.php
+<li><a href="grade-book.php"><i ></i><img src="assets/images/grade-book.png"><span>Grade Book</span></a></li>
+
+# project-board.php
+<li><a href="grade-book.php"><i ></i><img src="assets/images/grade-book.png"><span>Grade Book</span></a></li>
+
+STUDENTS
+
+# students/ collaboration-board (status update task)
+<div class="modal-footer">
+<input type="submit"  class="btn btn-dark"  name="Save-Status" value="Save Status">
+<input type="hidden" name="tasksid" id="tasksid" value="" />
+
+# students/ collaboration-board (nav bar)
+ <li class="nav-item"><a class="" data-toggle="tab" href="#Announcement" style="font-weight: bold" style="color:8A5805;">ANNOUNCEMENT</a></li>
+ <li class="nav-item"><a class="" data-toggle="tab" href="#Tasks" style="font-weight: bold" style="color:#244899;">TASKS</a></li>
+ <li class="nav-item"><a class="" data-toggle="tab" href="#Files" style="font-weight: bold" style="color:#244899;">FILES</a></li>
+
+# students/ collaboration-board (button post announcement)
+class="btn btn-dark"
+
+
+# students/ collaboration-board.php (icons same with taskboard.php)
+task_30px.png
+message_30px.png
+notif_30px.png
+signout_30px.png
+
+#students/ collaboration-board lahat ng page ng students chatapp etc(taskboard icon nasend ko na sa messenger file)
+taskboard_20px.png
+
+#COLLABORATION-BOARD (comment)
+ <!-- <div class="text-pink"><?php echo $row['id']?></div> -->
+
+# students/ collaboration-board.php (button ng edit task)
+<input type="submit"  class="btn btn-dark"  name="Edit-Task" value="Save">
+(icomment sa ilalim)
+<!-- <input type="text" name="etask" id="etask" value="" /> -->
+
+# students/ collaboration-board.php (button ng add subtask tiyaka comment)
+
+<input type="submit"  class="btn btn-dark"  name="Add-Subtask" value="Add Subtask">
+                <!-- <input type="text" name="task" id="task" value="" />
+                <input type="text" name="taskid" id="taskid" value="" /> -->
+
+# students/ collaboration-board.php (button ng delete task tiyaka comment LAHAT ANDAMI PALA)
+
+<input type="submit"  class="btn btn-dark"  name="Delete-Subtask" value="Delete Task">
+                <!-- <input type="text" name="dsubtask" id="dsubtask" value="" /> -->
+
+
+
+
+	
+
+
